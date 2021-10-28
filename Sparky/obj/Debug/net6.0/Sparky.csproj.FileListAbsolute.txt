@@ -1,0 +1,13 @@
+C:\Users\Diego\source\repos\Solution Spark\Sparky\bin\Debug\net6.0\Sparky.deps.json
+C:\Users\Diego\source\repos\Solution Spark\Sparky\bin\Debug\net6.0\Sparky.dll
+C:\Users\Diego\source\repos\Solution Spark\Sparky\bin\Debug\net6.0\ref\Sparky.dll
+C:\Users\Diego\source\repos\Solution Spark\Sparky\bin\Debug\net6.0\Sparky.pdb
+C:\Users\Diego\source\repos\Solution Spark\Sparky\obj\Debug\net6.0\Sparky.GlobalUsings.g.cs
+C:\Users\Diego\source\repos\Solution Spark\Sparky\obj\Debug\net6.0\Sparky.csproj.AssemblyReference.cache
+C:\Users\Diego\source\repos\Solution Spark\Sparky\obj\Debug\net6.0\Sparky.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Diego\source\repos\Solution Spark\Sparky\obj\Debug\net6.0\Sparky.AssemblyInfoInputs.cache
+C:\Users\Diego\source\repos\Solution Spark\Sparky\obj\Debug\net6.0\Sparky.AssemblyInfo.cs
+C:\Users\Diego\source\repos\Solution Spark\Sparky\obj\Debug\net6.0\Sparky.csproj.CoreCompileInputs.cache
+C:\Users\Diego\source\repos\Solution Spark\Sparky\obj\Debug\net6.0\Sparky.dll
+C:\Users\Diego\source\repos\Solution Spark\Sparky\obj\Debug\net6.0\ref\Sparky.dll
+C:\Users\Diego\source\repos\Solution Spark\Sparky\obj\Debug\net6.0\Sparky.pdb
