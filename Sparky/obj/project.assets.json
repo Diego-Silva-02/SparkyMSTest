@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Diego\\source\\repos\\Solution Spark\\Sparky\\Sparky.csproj",
+      "projectUniqueName": "E:\\UnitTests\\Solution Spark\\Sparky\\Sparky.csproj",
       "projectName": "Sparky",
-      "projectPath": "C:\\Users\\Diego\\source\\repos\\Solution Spark\\Sparky\\Sparky.csproj",
+      "projectPath": "E:\\UnitTests\\Solution Spark\\Sparky\\Sparky.csproj",
       "packagesPath": "C:\\Users\\Diego\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Diego\\source\\repos\\Solution Spark\\Sparky\\obj\\",
+      "outputPath": "E:\\UnitTests\\Solution Spark\\Sparky\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

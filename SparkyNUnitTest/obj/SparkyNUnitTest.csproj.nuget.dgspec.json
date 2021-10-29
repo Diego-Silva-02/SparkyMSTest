@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\UnitTests\\Solution Spark\\SparkyMSTest\\SparkyMSTest.csproj": {}
+    "E:\\UnitTests\\Solution Spark\\SparkyNUnitTest\\SparkyNUnitTest.csproj": {}
   },
   "projects": {
-    "E:\\UnitTests\\Solution Spark\\SparkyMSTest\\SparkyMSTest.csproj": {
+    "E:\\UnitTests\\Solution Spark\\SparkyNUnitTest\\SparkyNUnitTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\UnitTests\\Solution Spark\\SparkyMSTest\\SparkyMSTest.csproj",
-        "projectName": "SparkyMSTest",
-        "projectPath": "E:\\UnitTests\\Solution Spark\\SparkyMSTest\\SparkyMSTest.csproj",
+        "projectUniqueName": "E:\\UnitTests\\Solution Spark\\SparkyNUnitTest\\SparkyNUnitTest.csproj",
+        "projectName": "SparkyNUnitTest",
+        "projectPath": "E:\\UnitTests\\Solution Spark\\SparkyNUnitTest\\SparkyNUnitTest.csproj",
         "packagesPath": "C:\\Users\\Diego\\.nuget\\packages\\",
-        "outputPath": "E:\\UnitTests\\Solution Spark\\SparkyMSTest\\obj\\",
+        "outputPath": "E:\\UnitTests\\Solution Spark\\SparkyNUnitTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -50,21 +50,17 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "MSTest.TestAdapter": {
-              "target": "Package",
-              "version": "[2.2.7, )"
-            },
-            "MSTest.TestFramework": {
-              "target": "Package",
-              "version": "[2.2.7, )"
-            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[16.11.0, )"
+              "version": "[17.0.0, )"
             },
-            "coverlet.collector": {
+            "NUnit": {
               "target": "Package",
-              "version": "[3.1.0, )"
+              "version": "[3.13.2, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.0.0, )"
             }
           },
           "imports": [

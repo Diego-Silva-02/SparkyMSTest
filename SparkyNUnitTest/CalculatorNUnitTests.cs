@@ -1,12 +1,16 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Sparky;
+﻿using NUnit.Framework;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace SparkyMSTest
+namespace Sparky
 {
-    [TestClass]
-    public class CalculatorMSTests
+    [TestFixture]
+    public class CalculatorNUnitTests
     {
-        [TestMethod]
+        [Test]
         public void AddNumbers_InputTwoInt_GetCorrectAddition()
         {
             // → Test phases
