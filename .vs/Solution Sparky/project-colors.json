@@ -10,7 +10,12 @@
       "ProjectGuid": "72810394-7f81-4594-8c03-31ccdb08670d",
       "DisplayName": "Sparky",
       "ColorIndex": 1
+    },
+    "e9dc64ff-67af-43b7-9324-a70ed9d75469": {
+      "ProjectGuid": "e9dc64ff-67af-43b7-9324-a70ed9d75469",
+      "DisplayName": "SparkyNUnitTest",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 3
 }

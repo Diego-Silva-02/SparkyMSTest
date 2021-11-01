@@ -18,11 +18,33 @@ namespace Sparky
             Calculator calc = new();
 
             // Act
-            int result = calc.AddNumbers(10, 20);
+            int result = calc.AddNumbers(11, 20);
+            bool isOddNumber = calc.IsOddNumber(result);
 
             // Assert
-            Assert.AreEqual(30, result);
+            Assert.AreEqual(31, result);
+            Assert.IsTrue(isOddNumber);
             // Expect, actual
+        }
+
+        [Test]
+        public void IsOddChecker_InputEvenNumber_ReturnFalse()
+        {
+            Calculator calc = new();
+
+            bool isOdd = calc.IsOddNumber(10);
+            Assert.That(isOdd, Is.EqualTo(false));
+            Assert.IsTrue(!isOdd);
+        }
+
+        [Test]
+        public void IsOddChecker_InputOffNumber_ReturnTrue()
+        {
+            Calculator calc = new();
+
+            bool isOdd = calc.IsOddNumber(11);
+            Assert.That(isOdd, Is.EqualTo(true));
+            Assert.IsTrue(isOdd);
         }
     }
 }
