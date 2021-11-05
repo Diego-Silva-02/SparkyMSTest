@@ -1,9 +1,4 @@
 ﻿using NUnit.Framework;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Sparky
 {
@@ -77,5 +72,7 @@ namespace Sparky
             Assert.AreEqual(15.9, result, .2);
             // Expect, actual
         }
+
+
     }
 }
