@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "flhD+ueFgSAk+AuF4gcq5R/yztl2JZ8KKyQ9bzRF0G8az6JYM/4Cf+DEvegdpyNitrcZ/O8OwZhwHIceswqvrw==",
+  "dgSpecHash": "K6VX+3mtw2zdlS+GyHuef1/kmn9q+78/wdrwvugb42F33HKvp3vO7d+gvwbx6t7Z3YPNLUE1gZ6Hqhs+pxYvNA==",
   "success": true,
-  "projectFilePath": "E:\\UnitTests\\Solution Spark\\Sparky\\Sparky.csproj",
+  "projectFilePath": "C:\\Users\\diego_silva\\Source\\Repos\\SparkyMSTest\\Sparky\\Sparky.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

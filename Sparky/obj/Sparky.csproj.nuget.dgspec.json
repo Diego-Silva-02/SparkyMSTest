@@ -1,27 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "E:\\UnitTests\\Solution Spark\\Sparky\\Sparky.csproj": {}
+    "C:\\Users\\diego_silva\\Source\\Repos\\SparkyMSTest\\Sparky\\Sparky.csproj": {}
   },
   "projects": {
-    "E:\\UnitTests\\Solution Spark\\Sparky\\Sparky.csproj": {
+    "C:\\Users\\diego_silva\\Source\\Repos\\SparkyMSTest\\Sparky\\Sparky.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\UnitTests\\Solution Spark\\Sparky\\Sparky.csproj",
+        "projectUniqueName": "C:\\Users\\diego_silva\\Source\\Repos\\SparkyMSTest\\Sparky\\Sparky.csproj",
         "projectName": "Sparky",
-        "projectPath": "E:\\UnitTests\\Solution Spark\\Sparky\\Sparky.csproj",
-        "packagesPath": "C:\\Users\\Diego\\.nuget\\packages\\",
-        "outputPath": "E:\\UnitTests\\Solution Spark\\Sparky\\obj\\",
+        "projectPath": "C:\\Users\\diego_silva\\Source\\Repos\\SparkyMSTest\\Sparky\\Sparky.csproj",
+        "packagesPath": "C:\\Users\\diego_silva\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\diego_silva\\Source\\Repos\\SparkyMSTest\\Sparky\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Diego\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\diego_silva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
