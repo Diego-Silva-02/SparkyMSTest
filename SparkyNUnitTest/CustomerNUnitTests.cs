@@ -15,7 +15,11 @@ namespace Sparky
             string fullName = customer.GreetAndCombineNames("Ben", "Sparky");
 
             // Assert
-            Assert.That(fullName, Is.EqualTo("Hello, Ben Sparky"));
+            Assert.AreEqual(fullName, "Hello, Ben Sparky");
+            Assert.That(fullName, Does.Contain(","));
+            Assert.That(fullName, Does.StartWith("Hello,"));
+            Assert.That(fullName, Does.EndWith("sparky").IgnoreCase);
+            Assert.That(fullName, Does.Match("Hello, [A-Z]{1}[a-z]+ [A-Z]{1}[a-z]+"));
         }
     }
 }
