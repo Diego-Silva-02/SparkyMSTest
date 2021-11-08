@@ -76,6 +76,37 @@ namespace Sparky
             Assert.AreEqual("Empty First Name", exceptionDetails.Message);
             Assert.That(() => customer.GreetAndCombineNames("","sparky"), 
                 Throws.ArgumentException.With.Message.EqualTo("Empty First Name"));
+
+            // Testing the application without testing its value
+            Assert.Throws<ArgumentException>(() => customer.GreetAndCombineNames("", "Sparky"));
+            Assert.AreEqual("Empty First Name", exceptionDetails.Message);
+            Assert.That(() => customer.GreetAndCombineNames("", "sparky"), Throws.ArgumentException);
+        }
+
+        [Test]
+        public void CustumerType_CreateCustomerWithLessThan100Order_ReturnsBasicCustomer()
+        {
+            // Arrange
+            customer.OrderTotal = 10;
+
+            // Act
+            var result = customer.GetCustomerDetails();
+
+            // Assert
+            Assert.That(result, Is.TypeOf<BasicCustomer>());
+        }
+
+        [Test]
+        public void CustumerType_CreateCustomerWithMoreThan100Order_ReturnsPlatinumCustomer()
+        {
+            // Arrange
+            customer.OrderTotal = 110;
+
+            // Act
+            var result = customer.GetCustomerDetails();
+
+            // Assert
+            Assert.That(result, Is.TypeOf<PlatinumCustomer>());
         }
     }
 }
