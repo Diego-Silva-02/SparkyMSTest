@@ -28,7 +28,6 @@ C:\Users\diego_silva\Source\Repos\SparkyMSTest\Sparky\bin\Debug\net6.0\Sparky.de
 C:\Users\diego_silva\Source\Repos\SparkyMSTest\Sparky\bin\Debug\net6.0\Sparky.dll
 C:\Users\diego_silva\Source\Repos\SparkyMSTest\Sparky\bin\Debug\net6.0\ref\Sparky.dll
 C:\Users\diego_silva\Source\Repos\SparkyMSTest\Sparky\bin\Debug\net6.0\Sparky.pdb
-C:\Users\diego_silva\Source\Repos\SparkyMSTest\Sparky\obj\Debug\net6.0\Sparky.GlobalUsings.g.cs
 C:\Users\diego_silva\Source\Repos\SparkyMSTest\Sparky\obj\Debug\net6.0\Sparky.csproj.AssemblyReference.cache
 C:\Users\diego_silva\Source\Repos\SparkyMSTest\Sparky\obj\Debug\net6.0\Sparky.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\diego_silva\Source\Repos\SparkyMSTest\Sparky\obj\Debug\net6.0\Sparky.AssemblyInfoInputs.cache
