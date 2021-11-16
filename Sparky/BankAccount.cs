@@ -13,6 +13,9 @@
         public bool Deposit(int amount)
         {
             _logBook.Message("Deposit invoked");
+            _logBook.Message("Test");
+            _logBook.LogSeverity = 101;
+            int temp = _logBook.LogSeverity;
             Balance += amount;
             return true;
         }
@@ -21,10 +24,11 @@
         {
             if (Balance >= amount)
             {
+                _logBook.LogToDb($"Withdraw Amount: {amount}");
                 Balance -= amount;
-                return true;
+                return _logBook.LogBalanceAfterWithdraw(Balance);
             }
-            return false;
+            return _logBook.LogBalanceAfterWithdraw(Balance-amount);
         }
 
         public int GetBalance()
