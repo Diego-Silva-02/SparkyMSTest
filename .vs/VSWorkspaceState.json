@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\SparkyNUnitTest"
+    "\\SparkyNUnitTest",
+    "\\SparkyXUnit"
   ],
-  "SelectedNode": "\\SparkyNUnitTest\\BankAccountNUnitTests.cs",
+  "SelectedNode": "\\SparkyXUnit\\CustomerXUnitTests.cs",
   "PreviewInSolutionExplorer": false
 }
